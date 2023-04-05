@@ -10,7 +10,7 @@
     "sourceType": "module"
   },
   "rules": {
-    
+    "semi":"error"
   },
   "import/extensions":  { "mjs": "always" }
 }
