@@ -12,7 +12,7 @@ const router = express.Router();
 
 router.post("/create-event", auth, errorHandler(CreateEvent));
 
-router.post("/update-event", auth, errorHandler(UpdateEvent));
+router.patch("/update-event", auth, errorHandler(UpdateEvent));
 
 router.get("/events", errorHandler(GetEvents));
 
