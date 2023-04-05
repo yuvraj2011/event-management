@@ -19,6 +19,6 @@ app.use("/event",eventRoute);
 app.use(globalErrorHandler);
 
 app.listen(PORT, () => {
-  console.log("listening on port 3000");
+  console.log(`listening on port ${PORT}`);
 });
 
