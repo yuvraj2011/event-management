@@ -1,5 +1,5 @@
 import express from "express";
-import errorHandler from "../helpers/errorHandler.mjs";
+import errorHandler from "../middlewares/errorHandler.mjs";
 import {
   CreateEvent,
   UpdateEvent,
